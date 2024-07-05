@@ -55,9 +55,9 @@ Here is the key codes that I got from the keyboard... Mileage may vary and I HIG
 follow his directions exactly because even though I used the same keyboard the key codes were
 still different!!
 
-:key_code: 128 = Num Lock:
-key_code: 128=Num lock 
-key_code: 98= /
+ 
+key_code: 128=Num lock <br>
+key_code: 98= /  <br>
 key_code: 55= *
 key_code: 74= -
 key_code: 71= 7
