@@ -58,22 +58,22 @@ still different!!
  
 key_code: 128=Num lock <br>
 key_code: 98= /  <br>
-key_code: 55= *
-key_code: 74= -
-key_code: 71= 7
-key_code: 72= 8
-key_code: 73= 9
-key_code: 75= 4
-key_code: 76= 5
-key_code: 77= 6
-key_code: 78= +
-key_code: 79= 1
-key_code: 80= 2
-key_code: 81= 3
-key_code: 14= Back space
-key_code: 96= Enter
-key_code: 82= 0
-key_code: 83= .
+key_code: 55= *  <br>
+key_code: 74= -  <br>
+key_code: 71= 7  <br>
+key_code: 72= 8  <br>
+key_code: 73= 9  <br>
+key_code: 75= 4  <br>
+key_code: 76= 5  <br>
+key_code: 77= 6  <br>
+key_code: 78= +  <br>
+key_code: 79= 1  <br>
+key_code: 80= 2  <br>
+key_code: 81= 3  <br>
+key_code: 14= Back space  <br>
+key_code: 96= Enter  <br>
+key_code: 82= 0  <br>
+key_code: 83= .  <br>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
