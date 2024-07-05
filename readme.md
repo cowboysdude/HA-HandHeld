@@ -38,8 +38,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-GO watch this video because this is only possible because of his work!!!
-[https://www.youtube.com/watch?v=YV0DFPBQbWQ&t=613s] Paul Hibbert
+GO watch this video by Paul Hibbert because this is only possible because of his work!!!
+Youtube Video - [https://www.youtube.com/watch?v=YV0DFPBQbWQ&t=613s](https://www.youtube.com/watch?v=YV0DFPBQbWQ&t=613s)
  
 
 ### Installation
