@@ -23,7 +23,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Not the best picture but the I used just a label maker because for me it doesn't have to be a work of art LOL   
+Not the best picture but the I used just a label maker because for me it doesn't have to be a work of art LOL <br>
+Still have 4 buttons I haven't assigned yet but you get the idea....
 
 ![Example](/images/20240705_173513.jpg)
  
@@ -44,6 +45,9 @@ Youtube Video - [https://www.youtube.com/watch?v=YV0DFPBQbWQ&t=613s](https://www
 
 There is really NO installation but I will point this out......... IF you're using the keyboard he suggests then put the 
 battery in the keyboard THEN put the dongle into the computer.
+
+There is a yaml file you can use if you need examples.  I don't use the built in automation maker in HA, I'd rather <br>
+I prefer to write the yaml myself.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
