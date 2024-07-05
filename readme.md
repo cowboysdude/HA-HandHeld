@@ -37,8 +37,8 @@ Still have 4 buttons I haven't assigned yet but you get the idea....
 
 ### Prerequisites
 
-GO watch this video by Paul Hibbert because this is only possible because of his work!!!
-Youtube Video - [https://www.youtube.com/watch?v=YV0DFPBQbWQ&t=613s](https://www.youtube.com/watch?v=YV0DFPBQbWQ&t=613s)
+GO watch this video by Paul Hibbert because this is only possible because of his work!!!  <br>
+Youtube Video <br><br> [https://www.youtube.com/watch?v=YV0DFPBQbWQ&t=613s](https://www.youtube.com/watch?v=YV0DFPBQbWQ&t=613s)
  
 
 ### Installation
