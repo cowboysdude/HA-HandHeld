@@ -1,0 +1,259 @@
+- alias: 01a - NumLock Hand Held Automation Keyboard
+  id: NumLock Hand Held Automation Keyboard
+  description: "Lock front door"
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 128
+  condition: []
+  action:
+    - service: lock.lock
+      entity_id: lock.front_door_lock
+  mode: single
+
+- alias: 02a - LR1 Hand Held Automation Keyboard
+  id: / Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 98
+  condition: []
+  action:
+    - service: switch.toggle
+      entity_id: switch.livingroom1
+  mode: single
+
+- alias: 03a - LR2 Hand Held Automation Keyboard
+  id: "* Hand Held Automation Keyboard"
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 55
+  condition: []
+  action:
+    - service: switch.toggle
+      entity_id: switch.livingroom_2
+  mode: single
+
+- alias: 04a - LR Ambient Lighting TV Hand Held Automation Keyboard
+  id: 7 Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 71
+  condition: []
+  action:
+    - service: switch.toggle
+      entity_id:
+        - switch.living_room_ambient_tv
+        - light.tvstand
+  mode: single
+
+- alias: 05a - Counterlights  Hand Held Automation Keyboard
+  id: 8 Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 72
+  condition: []
+  action:
+    - service: switch.toggle
+      entity_id:
+        - switch.counter_lights
+        - switch.inside_cupboard_lights
+  mode: single
+
+- alias: 06a - Hand Held Automation Keyboard
+  id: 9 Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 73
+  condition: []
+  action:
+    - service: light.toggle
+      entity_id: light.island_lights_2
+  mode: single
+
+- alias: 07a - Sink Lights Hand Held Automation Keyboard
+  id: + Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 78
+  condition: []
+  action:
+    - service: light.toggle
+      entity_id: light.sink_lights
+  mode: single
+
+- alias: 08a - Table Lights Hand Held Automation Keyboard
+  id: 4 Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 75
+  condition: []
+  action:
+    - service: switch.toggle
+      entity_id: switch.table_light
+  mode: single
+
+- alias: 09a - Couch Lights Bedroom lights Hand Held Automation Keyboard
+  id: 5 Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 76
+  condition: []
+  action:
+    - service: switch.toggle
+      entity_id: switch.couch_lights
+  mode: single
+
+- alias: 11a - Spareroom Hand Held Automation Keyboard
+  id: 6 Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 77
+  condition: []
+  action:
+    - service: light.toggle
+      entity_id:
+        - light.spareroom1
+        - light.spareroom2
+  mode: single
+
+- alias: 10a - porch lights Hand Held Automation Keyboard
+  id: Back Space Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 14
+  condition: []
+  action:
+    - service: switch.toggle
+      entity_id:
+        - switch.back_outside_light
+        - switch.front_porch_light
+  mode: single
+
+- alias: 12a - Fnt Bedroom light Hand Held Automation Keyboard
+  id: 1 Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 79
+  condition: []
+  action:
+    - service: switch.toggle
+      entity_id: switch.front_bedroom_light_switch
+  mode: single
+
+- alias: 13a - Hand Held Automation Keyboard
+  id: "- BDR Light switchHand Held Automation Keyboard"
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 74
+  condition: []
+  action:
+    - service: switch.toggle
+      entity_id: switch.bedroom_light_switch
+  mode: single
+
+- alias: 14a - Hand Held Automation Keyboard
+  id: 2 Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 80
+  condition: []
+  action:
+    - service: lock.lock
+      entity_id: lock.front_door_lock
+  mode: single
+
+- alias: 15a - Hand Held Automation Keyboard
+  id: 3 Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 81
+  condition: []
+  action:
+    - service: lock.lock
+      entity_id: lock.front_door_lock
+  mode: single
+
+- alias: 16a - Hand Held Automation Keyboard
+  id: Enter Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 96
+  condition: []
+  action:
+    - service: lock.lock
+      entity_id: lock.front_door_lock
+  mode: single
+
+- alias: 17a - Hand Held Automation Keyboard
+  id: 0 Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 82
+  condition: []
+  action:
+    - service: lock.lock
+      entity_id: lock.front_door_lock
+  mode: single
+
+- alias: 18a - bedroom fan Hand Held Automation Keyboard
+  id: . Hand Held Automation Keyboard
+  description: ""
+  trigger:
+    - platform: event
+      event_type: keyboard_remote_command_received
+      event_data:
+        key_code: 83
+  condition: []
+  action:
+    - service: switch.toggle
+      entity_id: switch.bedroomfan
+  mode: single
