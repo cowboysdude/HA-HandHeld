@@ -25,7 +25,7 @@
 
 Not the best picture but the I used just a label maker because for me it doesn't have to be a work of art LOL <br>
 Still have 4 buttons I haven't assigned yet but you get the idea....
-<br>
+<br><br>
 A few examples... you can use automations, scripts, switches, buttons, lights...etc and make them a button! 
 <br><br>
 
