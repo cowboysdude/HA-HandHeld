@@ -174,7 +174,7 @@
       entity_id: switch.front_bedroom_light_switch
   mode: single
 
-- alias: 13a - Hand Held Automation Keyboard
+- alias: 13a - MST Bed Light Hand Held Automation Keyboard
   id: "- BDR Light switchHand Held Automation Keyboard"
   description: ""
   trigger:
@@ -188,7 +188,7 @@
       entity_id: switch.bedroom_light_switch
   mode: single
 
-- alias: 14a - Hand Held Automation Keyboard
+- alias: 14a - MST Fan Hand Held Automation Keyboard
   id: 2 Hand Held Automation Keyboard
   description: ""
   trigger:
@@ -198,11 +198,11 @@
         key_code: 80
   condition: []
   action:
-    - service: lock.lock
-      entity_id: lock.front_door_lock
+    - service: switch.toggle
+      entity_id: switch.bedroomfan
   mode: single
 
-- alias: 15a - Hand Held Automation Keyboard
+- alias: 15a - Bed Lights Hand Held Automation Keyboard
   id: 3 Hand Held Automation Keyboard
   description: ""
   trigger:
@@ -212,8 +212,8 @@
         key_code: 81
   condition: []
   action:
-    - service: lock.lock
-      entity_id: lock.front_door_lock
+    - service: switch.toggle
+      entity_id: switch.bed_lights_2
   mode: single
 
 - alias: 16a - Hand Held Automation Keyboard
@@ -226,7 +226,7 @@
         key_code: 96
   condition: []
   action:
-    - service: lock.lock
+    - service:
       entity_id: lock.front_door_lock
   mode: single
 
@@ -240,11 +240,11 @@
         key_code: 82
   condition: []
   action:
-    - service: lock.lock
+    - service:
       entity_id: lock.front_door_lock
   mode: single
 
-- alias: 18a - bedroom fan Hand Held Automation Keyboard
+- alias: 18a -  Hand Held Automation Keyboard
   id: . Hand Held Automation Keyboard
   description: ""
   trigger:
@@ -254,6 +254,6 @@
         key_code: 83
   condition: []
   action:
-    - service: switch.toggle
-      entity_id: switch.bedroomfan
+    - service: script.clean_living_room
+      #entity_id:
   mode: single
